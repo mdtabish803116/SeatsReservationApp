@@ -1,0 +1,55 @@
+.showSeats {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.redBox {
+    width:30px;
+    height:30px;
+    background-color: red;
+    border-radius: 20px;
+}
+
+.greenBox {
+    width:30px;
+    height:30px;
+    background-color:green;
+    border-radius: 15px;
+}
+
+.inputBox{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+.inputBox > *:nth-child(1){
+    width : 45%;
+    border-radius : 10px;
+   }
+   
+ .inputBox > *:nth-child(2){
+   width : 45%;
+   text-align: center;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   background : lightgreen;
+   border-radius: 10px;
+   }
+
+   .ResetActionDiv {
+      width : 60%;
+      background-color: lightblue;
+      text-align: center;
+      margin-top: 5px;
+      margin-left: 10px;
+      margin-bottom: 30px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-radius: 10px;
+   }

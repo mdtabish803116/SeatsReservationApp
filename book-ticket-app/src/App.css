@@ -1,0 +1,22 @@
+h2 {
+  text-align: center;
+}
+
+.App{
+  display : flex;
+  justify-content : space-around;
+  font-family: AvertaStd, -apple-system, BlinkMacSystemFont, sans-serif
+}
+
+.App > *:nth-child(1){
+ width : 40%;
+ border : 1px solid red;
+
+}
+
+.App > *:nth-child(2){
+width : 35%;
+margin-bottom : 100px;
+border : 1px solid red;
+}
+
